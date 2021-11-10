@@ -1,0 +1,133 @@
+html {
+  overflow: hidden;
+}
+
+* {
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.wrap {
+  perspective: 1px;
+  font-size: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform-style: preserve-3d;
+  height: 100vh;
+}
+.wrap .header {
+  transform-style: preserve-3d;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 873px;
+  display: flex;
+  justify-content: center;
+}
+.wrap .header p {
+  width: 50%;
+  margin: 0 auto;
+  background-color: lemonchiffon;
+}
+.wrap .header::before {
+  content: "";
+  background-image: url(../img/parallax-2.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 140vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+}
+.wrap .header .header__wrap {
+  width: 100%;
+  height: 104px;
+  background-color: #24242421;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .header .header__wrap .header__menu-logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrap .header .header__wrap .header__menu-logo a .logo {
+  max-width: 100%;
+  height: 37px;
+  margin-left: 35px;
+  padding: 0 50px;
+}
+.wrap .header .header__wrap .header__menu {
+  display: flex;
+  transform: translateX(-85px);
+}
+.wrap .header .header__wrap .header__menu .header__menu-ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrap .header .header__wrap .header__menu .header__menu-ul li a {
+  font-weight: 400;
+  padding: 25px 15px;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 14px;
+}
+.wrap .header .header__wrap .header__menu .booknow {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrap .header .header__wrap .header__menu .booknow .booknow_1 {
+  padding: 12px 15px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 25px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  border-radius: 35px;
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #fface8, #00c9ff);
+  animation: bgclinear linear 2.5s infinite forwards;
+}
+@keyframes bgclinear {
+  50% {
+    background-image: linear-gradient(to bottom left, #fface8, #00c9ff);
+  }
+  75% {
+    background-image: linear-gradient(to top left, #fface8, #00c9ff);
+  }
+  100% {
+    background-image: linear-gradient(to top right, #fface8, #00c9ff);
+  }
+}
+.wrap .header .header__wrap .header__menu-png {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrap .header .header__wrap .header__menu-png a {
+  margin: 0 45px 0px 50px;
+  padding: 0 15px;
+}
+.wrap .header .header__wrap .header__menu-png a .header__menu-png-img {
+  max-width: 100%;
+  height: 25px;
+}
+.wrap .body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
