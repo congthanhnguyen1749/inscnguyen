@@ -44,8 +44,8 @@ html {
   filter: contrast(75%);
   position: absolute;
   z-index: -1;
-  filter: contrast(85%);
-   filter: brightness(120%);
+  filter: contrast(75%);
+   filter: brightness(100%);
   transform: translateZ(-1px) scale(2.5);
 }
 
