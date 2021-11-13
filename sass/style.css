@@ -45,19 +45,7 @@ html {
   position: absolute;
   z-index: -1;
   transform: translateZ(-1px) scale(2.5);
-  animation: xxx 7s linear infinite alternate;
-}
-@keyframes xxx {
-  0% {
-    transform: scale(1.4);
-    filter: contrast(75%);
-    filter: brightness(130%);
-  }
-  100% {
-    filter: brightness(100%);
-    filter: contrast(90%);
-    transform: scale(1);
-  }
+  
 }
 .wrap .header .header__wrap {
   width: 100%;
