@@ -44,7 +44,6 @@ html {
   filter: contrast(75%);
   position: absolute;
   z-index: -1;
-  transform: translateZ(-1px) scale(2.5);
   
 }
 .wrap .header .header__wrap {
