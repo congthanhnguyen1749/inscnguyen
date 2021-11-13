@@ -45,7 +45,7 @@ html {
   position: absolute;
   z-index: -1;
   transform: translateZ(-1px) scale(2.5);
-  animation: xxx 15s linear infinite alternate;
+  animation: xxx 7s linear infinite alternate;
 }
 @keyframes xxx {
   0% {
@@ -56,7 +56,7 @@ html {
   100% {
     filter: brightness(100%);
     filter: contrast(90%);
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
 .wrap .header .header__wrap {
